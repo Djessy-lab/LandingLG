@@ -1,27 +1,17 @@
 <template>
-    <iframe
-      width="700"
-      height="450"
-      src="https://www.youtube.com/embed/O6IZjWM5dPc?autoplay=1&mute=1"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      class="rounded-3xl mx-auto"
-    ></iframe>
+  <div class="sm:w-[100%] lg:w-[60%] mx-auto rounded-3xl shadow-2xl">
+    <video autoplay loop muted class="rounded-3xl" :playbackRate="5">
+      <source src="/public/img/video.mov" type="video/mp4">
+    </video>
+  </div>
 </template>
 
 
 <script>
 export default {
-  name: 'HowItsWorks'
+  name: 'HowItsWorks',
+  props: {
+    imgArg: { type: String, default: "" },
+  }
 }
 </script>
-
-<style scoped>
-iframe {
-  border: none;
-  border-radius: 1.5rem;
-}
-</style>
