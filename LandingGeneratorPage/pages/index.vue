@@ -1,6 +1,6 @@
 <template>
   <Saas v-if="currentConfig" v-bind="currentConfig" />
-  <div v-else>Chargement...</div>
+  <div v-else>Chargement en cours...</div>
 </template>
 
 <script>
