@@ -859,5 +859,63 @@ export default {
         ]
       }
     ]
+  },
+  "LandingGenerator": {
+    "appName": "LandingGenerator",
+    "titleHero": "Landing Generator",
+    "descriptionHero": "Générez vos plus belles pages en seulement quelque clics",
+    "color": "green",
+    "imgHero": "https://plus.unsplash.com/premium_photo-1663090922856-42eb12756351?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "imgArg": "https://plus.unsplash.com/premium_photo-1727443796323-4446e56b9cd5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "advantages": [
+      {
+        "title": "Rapidité",
+        "text": "Générez votre propre site en seulement quelques clics, soyez présents sur le web en un rien de temps."
+      },
+      {
+        "title": "Simplicité",
+        "text": "Plus besoin de compétences pour créer votre site, générez dès aujourd'hui votre premier site"
+      },
+      {
+        "title": "Efficacité",
+        "text": "Profitez du savoir-faire de nos experts et générez un site configuré clés en main"
+      }
+    ],
+    "testimonials": [
+      {
+        "author": "Djessy C.",
+        "text": "Depuis que j'utilise Landing Generator je gagne à la fois du temps sur la création de mes sites mais je m'ouvre aussi des opportunités, grâce à sa facilité d'utilisation je me focalise uniquement sur mon idée et plus sur sa faisabilité",
+        "stars": 5
+      },
+      {
+        "author": "D. Coiffé",
+        "text": "Landing Generator ce n'est pas juste un outil pour créer des sites comme il en existe déjà.. \nC'est un outil permettant de mettre en image un idée en moins de 5 minutes, le but n'est pas de paramétrer à la perfection pour la première utilisation mais plutôt de rendre réel une idée rapidement",
+        "stars": 5
+      },
+      {
+        "author": "Utilisateur",
+        "text": "Le code source de notre application finale est téléchargeable !! Il ne s'agit pas de générer un site comme je le pensais au début, en effet lorsque je suis passé sur le plan Medium j'ai vu apparaître dans mon Dashboard une nouvelle section me permettant de faire tourner mes application moi même, c'est donc finalement le boilerplate d'application le plus avancé que je n'ai jamais vu ! Chapeau 🎩",
+        "stars": 5
+      }
+    ],
+    "pricing": [
+      {
+        "title": "Free",
+        "price": 0,
+        "duration": "mois",
+        "features": ["Model de base", "1 génération de site par mois"]
+      },
+      {
+        "title": "Medium",
+        "price": 9.99,
+        "duration": "mois",
+        "features": ["Model de base", "5 générations de sites par mois", "Nos experts à votre écoute"]
+      },
+      {
+        "title": "Pro",
+        "price": 29.99,
+        "duration": "mois",
+        "features": ["Génération de sites illimité", "Model personnalisable", "Un expert dédié à votre service", "Façonnez chaque fonctionnalité"]
+      }]
   }
 };

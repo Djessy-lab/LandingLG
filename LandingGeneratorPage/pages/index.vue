@@ -4,19 +4,17 @@
 </template>
 
 <script>
+import config from "@/data/config";
 export default {
-  name: 'page',
+  name: "page",
   data() {
     return {
-      currentConfig: null
+      config,
+      currentConfig: null,
     };
   },
-  async mounted() {
-    try {
-      this.currentConfig = await $fetch(`/api/getConfig?configName=LandingGenerator`);
-    } catch (error) {
-      console.error('Erreur lors du chargement de la configuration:', error);
-    }
-  }
-}
+  mounted() {
+    this.currentConfig = config.LandingGenerator;
+  },
+};
 </script>
