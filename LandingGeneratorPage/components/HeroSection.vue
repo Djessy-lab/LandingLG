@@ -7,7 +7,7 @@
         <ul class="flex space-x-4">
           <li><a href="#testimonials" :class="colorMode.value === 'dark' ? 'text-gray-200' : linkClass">Avis</a></li>
           <li v-if="!userEmail">
-            <a href="https://landing-generator-brown.vercel.app/login" :class="colorMode.value === 'dark' ? 'text-gray-200' : linkClass">Se connecter</a>
+            <a href="http://localhost:3001/login" :class="colorMode.value === 'dark' ? 'text-gray-200' : linkClass">Se connecter</a>
           </li>
           <li v-if="userEmail">
             <a href="" :class="colorMode.value === 'dark' ? 'text-gray-200' : linkClass" @click.prevent="logout">Se
@@ -34,7 +34,7 @@
         </button>
       </div>
       <div class="mt-8 sm:w-[80%] lg:w-[60%] mx-auto shadow-2xl rounded-2xl mb-10">
-        <img :src="imgHero" alt="Producteurs et Consommateurs" class="rounded-2xl" />
+        <img src="/img/heroImageGreen.jpeg" class="rounded-2xl" />
       </div>
     </section>
   </div>
