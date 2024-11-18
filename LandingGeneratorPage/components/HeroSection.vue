@@ -28,10 +28,10 @@
         Bienvenue, {{ userEmail }}!
       </div>
       <div v-if="!userEmail" class="mt-6">
-        <button @click="goLogin"
+        <a href="https://landing-generator-brown.vercel.app/login"
           :class="[`max-w-32 min-w-32 px-4 py-2 rounded-lg shadow`, colorMode.value === 'dark' ? 'bg-gray-700 text-white hover:bg-gray-600' : buttonClass]">
           S'inscrire
-        </button>
+        </a>
       </div>
       <div class="mt-8 sm:w-[80%] lg:w-[60%] mx-auto shadow-2xl rounded-2xl mb-10">
         <img src="/img/heroImageGreen.jpeg" class="rounded-2xl" />
